@@ -1,4 +1,4 @@
-# EDIT the affiliations (and add ORCID iDs: orcid: "https://orcid.org/...") and the repository URL before the first release.
+# Add ORCID iDs (orcid: "https://orcid.org/...") and complete the affiliations if needed.
 cff-version: 1.2.0
 message: "If you use this benchmark, please cite the article and the DIMPSAR dataset."
 title: "MAPIMALA: a reproducible low-compute benchmark of neural classifiers for medicinal-plant identification from leaf images"
@@ -17,14 +17,18 @@ keywords:
 authors:
   - family-names: "Younsi"
     given-names: "Fatima Zohra"
-    affiliation: "University of Mostaganem, Mostaganem, Algeria"   # EDIT
+    affiliation: "University of Mostaganem, Algeria"
   - family-names: "Hammou"
     given-names: "Nesrine"
-    affiliation: "University of Mostaganem, Mostaganem, Algeria"   # EDIT
+    affiliation: "Institution, City, Country"   # EDIT
   - family-names: "Kradchi"
     given-names: "Soumia"
-    affiliation: "University of Mostaganem, Mostaganem, Algeria"   # EDIT
+    affiliation: "Institution, City, Country"   # EDIT
+doi: 10.5281/zenodo.23426053
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23426053
+    description: "This code, release v1.0.0 (Zenodo software record)"
   - type: doi
     value: 10.5281/zenodo.23418954
     description: "Companion data record (trained models, features, leaf masks, split)"
