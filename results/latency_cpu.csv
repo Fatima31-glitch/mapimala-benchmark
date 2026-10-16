@@ -1,0 +1,19 @@
+model,latency_ms_median,latency_ms_p90,n_images
+cnn_scratch,123.4,242.8,200
+densenet121_frozen,362.8,468.9,200
+densenet121_ft_seed42,276.1,455.1,200
+densenet121_ft_seed43,336.2,463.8,200
+densenet121_ft_seed44,365.4,696.6,200
+efficientnetv2b0_frozen,155.1,265.1,200
+efficientnetv2b0_ft_noaug_seed43,169.6,274.9,200
+efficientnetv2b0_ft_seed42,157.6,270.7,200
+efficientnetv2b0_ft_seed43,154.4,250.2,200
+efficientnetv2b0_ft_seed44,167.3,267.4,200
+mobilenetv3l_frozen,120.9,207.2,200
+mobilenetv3l_ft_noaug_seed43,121.6,223.5,200
+mobilenetv3l_ft_seed42,119.2,209.6,200
+mobilenetv3l_ft_seed43,124.2,212.5,200
+mobilenetv3l_ft_seed44,124.0,207.1,200
+resnet50_frozen,362.0,485.4,200
+vgg16_frozen,685.3,1330.8,200
+hardware,x86_64 | 2 logical CPUs | Linux 6.6.122+ | TF 2.21.0,,

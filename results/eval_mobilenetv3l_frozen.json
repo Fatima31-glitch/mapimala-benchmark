@@ -1,0 +1,21 @@
+{
+ "name": "mobilenetv3l_frozen",
+ "n_test": 1190,
+ "accuracy": 0.957983193277311,
+ "acc_ci_low": 0.945033909978397,
+ "acc_ci_high": 0.9679851445126392,
+ "precision_macro": 0.9599596449574644,
+ "recall_macro": 0.9586182994250494,
+ "f1_macro": 0.9584652043714972,
+ "f1_ci_low": 0.9468855693268459,
+ "f1_ci_high": 0.9692775746398387,
+ "train_time_s": 17.0,
+ "params_total": 3252648,
+ "params_trainable": 256296,
+ "head_params": 256296,
+ "epochs": 20,
+ "latency_ms": 102.48,
+ "model_size_mb": 13.7,
+ "backbone": "mobilenetv3l",
+ "regime": "frozen"
+}

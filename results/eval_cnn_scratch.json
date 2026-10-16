@@ -1,0 +1,20 @@
+{
+ "name": "cnn_scratch",
+ "n_test": 1190,
+ "accuracy": 0.653781512605042,
+ "acc_ci_low": 0.6262944283120931,
+ "acc_ci_high": 0.6802789422784749,
+ "precision_macro": 0.6700286920122804,
+ "recall_macro": 0.6594343686943513,
+ "f1_macro": 0.6542285728809555,
+ "f1_ci_low": 0.6236962306042113,
+ "f1_ci_high": 0.6770666939426488,
+ "train_time_s": 13162.7,
+ "params_total": 6673896,
+ "params_trainable": 6673896,
+ "epochs": 23,
+ "latency_ms": 113.1,
+ "model_size_mb": 80.14,
+ "backbone": "none",
+ "regime": "scratch"
+}

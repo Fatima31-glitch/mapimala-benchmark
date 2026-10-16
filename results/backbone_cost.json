@@ -1,0 +1,44 @@
+{
+ "vgg16": {
+  "params_total": 14714688,
+  "params_trainable": 0,
+  "feature_dim": 512,
+  "extract_time_s_all_splits": 3666.0,
+  "backbone_latency_ms": 672.89
+ },
+ "mobilenetv3l": {
+  "params_total": 2996352,
+  "params_trainable": 0,
+  "feature_dim": 960,
+  "extract_time_s_all_splits": 207.9,
+  "backbone_latency_ms": 107.16
+ },
+ "efficientnetv2b0": {
+  "params_total": 5919312,
+  "params_trainable": 0,
+  "feature_dim": 1280,
+  "extract_time_s_all_splits": 349.9,
+  "backbone_latency_ms": 139.87
+ },
+ "densenet121": {
+  "params_total": 7037504,
+  "params_trainable": 0,
+  "feature_dim": 1024,
+  "extract_time_s_all_splits": 1018.1,
+  "backbone_latency_ms": 311.98
+ },
+ "resnet50": {
+  "params_total": 23587712,
+  "params_trainable": 0,
+  "feature_dim": 2048,
+  "extract_time_s_all_splits": 1115.4,
+  "backbone_latency_ms": 360.79
+ },
+ "convnexttiny": {
+  "params_total": 27820128,
+  "params_trainable": 0,
+  "feature_dim": 768,
+  "extract_time_s_all_splits": 118.3,
+  "backbone_latency_ms": 2595.76
+ }
+}

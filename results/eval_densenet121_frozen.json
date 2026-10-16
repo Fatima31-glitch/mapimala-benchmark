@@ -1,0 +1,21 @@
+{
+ "name": "densenet121_frozen",
+ "n_test": 1190,
+ "accuracy": 0.9394957983193277,
+ "acc_ci_low": 0.9244835784899827,
+ "acc_ci_high": 0.9516796609573785,
+ "precision_macro": 0.9437576935524309,
+ "recall_macro": 0.9411487488385006,
+ "f1_macro": 0.9409580611254388,
+ "f1_ci_low": 0.9267644838761452,
+ "f1_ci_high": 0.9532464787956435,
+ "train_time_s": 30.6,
+ "params_total": 7310184,
+ "params_trainable": 272680,
+ "head_params": 272680,
+ "epochs": 35,
+ "latency_ms": 313.92,
+ "model_size_mb": 30.76,
+ "backbone": "densenet121",
+ "regime": "frozen"
+}

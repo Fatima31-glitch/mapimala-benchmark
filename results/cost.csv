@@ -1,0 +1,12 @@
+model,params_total/trainable,train_time_min,latency_ms_per_image,model_size_mb,accuracy_pct
+cnn_scratch,"6,673,896 / 6,673,896",219.4,113.1,80.14,65.38
+densenet121_frozen,"7,310,184 / 272,680",0.5,313.9,30.76,93.95
+densenet121_ft,"7,310,184 / 3,127,592",12.7,95.4,55.83,96.30
+efficientnetv2b0_frozen,"6,257,528 / 338,216",0.4,131.3,25.99,95.88
+efficientnetv2b0_ft_noaug,"6,257,528 / 3,406,616",4.3,86.0,53.27,97.56
+efficientnetv2b0_ft,"6,257,528 / 3,406,616",5.6,80.0,53.29,96.19
+mobilenetv3l_frozen,"3,252,648 / 256,296",0.3,102.5,13.7,95.80
+mobilenetv3l_ft_noaug,"3,252,648 / 2,724,408",2.9,81.7,35.52,97.31
+mobilenetv3l_ft,"3,252,648 / 2,724,408",4.6,78.3,35.54,97.34
+resnet50_frozen,"24,122,536 / 534,824",0.3,352.8,97.15,94.20
+vgg16_frozen,"14,856,296 / 141,608",0.4,673.5,59.52,92.02

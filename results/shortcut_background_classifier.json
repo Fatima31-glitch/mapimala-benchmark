@@ -1,0 +1,14 @@
+{
+ "n_test": 1190,
+ "accuracy": 0.8739495798319328,
+ "acc_ci_low": 0.8538805102993263,
+ "acc_ci_high": 0.8916121121750058,
+ "precision_macro": 0.8767320685818321,
+ "recall_macro": 0.8769004735295265,
+ "f1_macro": 0.8735916014032362,
+ "f1_ci_low": 0.8542317199552947,
+ "f1_ci_high": 0.8884245716688964,
+ "chance": 0.025,
+ "backbone": "mobilenetv3l",
+ "leaf_area_fraction_test": 0.23014948725025725
+}

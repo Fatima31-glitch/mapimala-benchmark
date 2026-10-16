@@ -1,0 +1,21 @@
+{
+ "name": "vgg16_frozen",
+ "n_test": 1190,
+ "accuracy": 0.9201680672268907,
+ "acc_ci_low": 0.9033824025146858,
+ "acc_ci_high": 0.9342497575688334,
+ "precision_macro": 0.9227548140294839,
+ "recall_macro": 0.922141491237723,
+ "f1_macro": 0.9202245692506669,
+ "f1_ci_low": 0.9038703491192325,
+ "f1_ci_high": 0.9339091991532997,
+ "train_time_s": 24.0,
+ "params_total": 14856296,
+ "params_trainable": 141608,
+ "head_params": 141608,
+ "epochs": 33,
+ "latency_ms": 673.53,
+ "model_size_mb": 59.52,
+ "backbone": "vgg16",
+ "regime": "frozen"
+}

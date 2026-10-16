@@ -1,0 +1,10 @@
+# Tested: Python 3.12, TensorFlow 2.21.0 / Keras 3 (Google Colab, October 2026)
+tensorflow>=2.16
+scikit-learn>=1.3
+scipy>=1.10
+pillow>=9.0
+matplotlib>=3.7
+numpy>=1.24
+pandas>=2.0
+# optional: GrabCut fallback for the leaf masks of 05_shortcut.py
+# opencv-python-headless>=4.8

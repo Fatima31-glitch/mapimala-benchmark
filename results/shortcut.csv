@@ -1,0 +1,6 @@
+model,cam_in_leaf_ratio,clean_accuracy,accuracy_leaf_only,accuracy_background_only
+leaf_area_fraction_test,0.230,,,
+cnn_scratch,0.259,0.6538,0.4361,0.1496
+vgg16_frozen,0.245,0.9202,0.2370,0.5059
+mobilenetv3l_ft_seed44,0.296,0.9773,0.4681,0.6034
+background_only_classifier_mobilenetv3l,,,,0.8739

@@ -1,0 +1,21 @@
+{
+ "name": "resnet50_frozen",
+ "n_test": 1190,
+ "accuracy": 0.9420168067226891,
+ "acc_ci_low": 0.9272611380821115,
+ "acc_ci_high": 0.9539278943257509,
+ "precision_macro": 0.9446595028226007,
+ "recall_macro": 0.9434485993704527,
+ "f1_macro": 0.942273062561344,
+ "f1_ci_low": 0.9272264889413014,
+ "f1_ci_high": 0.9547196338661356,
+ "train_time_s": 17.6,
+ "params_total": 24122536,
+ "params_trainable": 534824,
+ "head_params": 534824,
+ "epochs": 14,
+ "latency_ms": 352.84,
+ "model_size_mb": 97.15,
+ "backbone": "resnet50",
+ "regime": "frozen"
+}

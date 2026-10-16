@@ -1,0 +1,21 @@
+{
+ "name": "efficientnetv2b0_frozen",
+ "n_test": 1190,
+ "accuracy": 0.9588235294117647,
+ "acc_ci_low": 0.9459797170106452,
+ "acc_ci_high": 0.9687146018005579,
+ "precision_macro": 0.9619162418388989,
+ "recall_macro": 0.9600155582237209,
+ "f1_macro": 0.9599581694237397,
+ "f1_ci_low": 0.9483192499066263,
+ "f1_ci_high": 0.9699958084568,
+ "train_time_s": 23.6,
+ "params_total": 6257528,
+ "params_trainable": 338216,
+ "head_params": 338216,
+ "epochs": 24,
+ "latency_ms": 131.33,
+ "model_size_mb": 25.99,
+ "backbone": "efficientnetv2b0",
+ "regime": "frozen"
+}
